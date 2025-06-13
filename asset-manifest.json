@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/escolasindigenas/static/css/main.c2080c18.css",
+    "main.js": "/escolasindigenas/static/js/main.3b03e796.js",
+    "static/js/488.bcb61101.chunk.js": "/escolasindigenas/static/js/488.bcb61101.chunk.js",
+    "index.html": "/escolasindigenas/index.html",
+    "main.c2080c18.css.map": "/escolasindigenas/static/css/main.c2080c18.css.map",
+    "main.3b03e796.js.map": "/escolasindigenas/static/js/main.3b03e796.js.map",
+    "488.bcb61101.chunk.js.map": "/escolasindigenas/static/js/488.bcb61101.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c2080c18.css",
+    "static/js/main.3b03e796.js"
+  ]
+}
