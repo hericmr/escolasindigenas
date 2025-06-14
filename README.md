@@ -2,8 +2,6 @@
 
 Um portal informativo interativo que mapeia e apresenta informações detalhadas sobre escolas indígenas no estado de São Paulo, Brasil. O projeto visa facilitar o acesso a dados educacionais e culturais dessas instituições, promovendo maior visibilidade e compreensão da educação indígena.
 
-## 🚀 Tecnologias
-
 ### Frontend
 - **React 18** - Biblioteca principal para construção da interface
 - **TailwindCSS** - Framework CSS utilitário para estilização
@@ -18,7 +16,7 @@ Um portal informativo interativo que mapeia e apresenta informações detalhadas
 - **PapaParse** - Parser para arquivos CSV
 - **React Markdown** - Renderização de conteúdo markdown
 
-## 📦 Instalação
+## Instalação
 
 1. Clone o repositório:
 ```bash
@@ -36,7 +34,7 @@ npm install
 npm start
 ```
 
-## 🏗️ Estrutura do Projeto
+##  Estrutura do Projeto
 
 ```
 src/
@@ -63,7 +61,7 @@ src/
 └── ...
 ```
 
-## 🎯 Componentes Principais
+## Componentes Principais
 
 ### PainelInformacoes
 Componente central que gerencia a exibição de informações detalhadas sobre escolas e terras indígenas. Utiliza uma arquitetura modular com:
@@ -80,7 +78,7 @@ Componente central que gerencia a exibição de informações detalhadas sobre e
 - `useClickOutside`: Detecção de cliques fora do componente
 - `usePainelDimensions`: Responsividade e dimensões
 
-## 🎨 Estilização
+## Estilização
 
 O projeto utiliza TailwindCSS com configurações personalizadas:
 - Sistema de cores verde para identidade visual
@@ -97,38 +95,6 @@ npm run test:watch # Modo watch
 npm run test:coverage # Cobertura de testes
 ```
 
-## 📝 Scripts Disponíveis
-
-- `npm start`: Inicia o servidor de desenvolvimento
-- `npm build`: Gera build de produção
-- `npm test`: Executa testes
-- `npm run deploy`: Faz deploy para GitHub Pages
-
-## Sobre o Projeto
-
-Esta é uma cartografia social que busca mapear territorialidades, lutas e conquistas dos movimentos sociais e da população na cidade de Santos. O mapa destaca a presença de equipamentos sociais, culturais, religiosos, políticos, educacionais, como escolas, unidades de saúde, assistência social, espaços culturais e de lazer, além de comunidades e locais carregados de memória e história.
-
-Entre os elementos mapeados, estão histórias relacionadas à escravidão e lutas do povo negro, à opressão e resistência à ditadura empresarial-militar (1964-1984), e às lutas que moldaram e continuam moldando a identidade da região.
-
-Os materiais cartográficos e textuais disponíveis aqui foram produzidos pelas(os) estudantes de Serviço Social da UNIFESP do vespertino e noturno durante a Unidade Curricular de Política Social 2, em 2024 e 2025.
-
-### Tipos de Marcadores no Mapa
-
-- **Azul** - Lazer: equipamentos sociais, culturais e de lazer
-- **Verde** - Assistência: unidades de assistência social e saúde
-- **Amarelo** - Históricos: lugares históricos e de memória
-- **Vermelho** - Comunidades: territórios de comunidades
-- **Violeta** - Educação: escolas e unidades de ensino
-- **Preto** - Religião: estabelecimentos religiosos
-
-## Instalação e Uso
-
-1. Clone o repositório e instale as dependências:
-```bash
-git clone https://github.com/hericmr/escolasindigenas.git
-cd escolasindigenas
-npm install
-```
 
 2. Configure o ambiente:
 - Copie `.env.example` para `.env`
